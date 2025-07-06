@@ -16,16 +16,28 @@ A simple and lightweight keystroke monitoring tool built with Python. It capture
 1. Clone the repository
 2. Install dependencies:
 
-```bash
+## bash
 pip install pynput pywin32
 
 
-## Usage
+## Output
 
 06-07-2025 14:23:11 -> h
 06-07-2025 14:23:11 -> e
 06-07-2025 14:23:11 -> l
 06-07-2025 14:23:11 -> l
 06-07-2025 14:23:11 -> o
-06-07-2025 14:23:15 -> [CLIPBOARD] pasted@example.com
+
+
+## Alternative
+
+- Make a separate file with Keystroke
+- Copy the code into VSCode with a file name Keystroke_Monitoring.py
+- Now on the address bar of a file Keystroke search for "powershell"
+- Now paste this "python -m PyInstaller -w -F Keystroke_Monitoring.py" to convert the python code into executable file (.exe)
+- Boom all done...You will get a "dist" folder inside "Keystroke" file, there will a file name with .exe file.
+- Click on that file to run...it will get started and will capture all the Keystroke.
+- All the keystroke will be saved in a file name "action.log" change the extension into "action.txt" to get into readable format
+- Boom....Here You Are Done.
+
 
