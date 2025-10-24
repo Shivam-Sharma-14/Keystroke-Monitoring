@@ -2,6 +2,7 @@
 ===========================
 **Keystroke Monitor** 🖥️
 _A powerful tool for monitoring and logging keystrokes, providing valuable insights into user activity_
+
 A simple powerful and lightweight keystroke monitoring tool built with Python. It captures keypresses in real-time, and saves everything with timestamps in a .log file. Designed for testing, input behavior analysis, and personal learning — built with minimal dependencies and a focus on clarity.
 
 📖 Description
